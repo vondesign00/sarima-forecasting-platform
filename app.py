@@ -6,7 +6,7 @@ import streamlit as st
 
 from halaman import komponen
 
-st.set_page_config(page_title="SARIMA / SARIMAX Forecasting Platform", page_icon="📈", layout="wide")
+st.set_page_config(page_title="PACAK: Platform Forecasting Praktis", page_icon="📈", layout="wide")
 komponen.gaya()
 
 navigasi = st.navigation({
