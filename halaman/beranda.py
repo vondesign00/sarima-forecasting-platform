@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("📈 SARIMA / SARIMAX Forecasting Platform")
+st.title("📈 PACAK: Platform Forecasting Praktis")
 st.markdown("##### Platform interaktif untuk proyeksi data deret waktu")
 
 st.markdown(
