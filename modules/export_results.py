@@ -68,7 +68,7 @@ def excel_hasil_saja(h: HasilProyeksi) -> bytes:
 
 def teks_ringkasan(h: HasilProyeksi) -> bytes:
     from .arima_model import ringkasan_teks
-    bagian = ["ARIMA Forecasting Platform — ringkasan model", "=" * 60, "",
+    bagian = ["PACAK: Platform Forecasting Praktis — ringkasan model", "=" * 60, "",
               tabel_pengaturan(h).to_string(), "",
               "MODEL UNTUK PROYEKSI KE DEPAN", "-" * 60,
               ringkasan_teks(h.hasil_akhir, h.statistik_akhir)]
